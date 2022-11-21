@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F1F3F6;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.form-container {
+    background: white;
+}
+
+.tittleContend {
+    text-align: center;
+}
+
+.tittleContend__desc {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.loginBtn {
+    width: 100%;
+    font-weight: 500;
+}
+
+.loginBtn, .loginBtn:hover {
+    background-color: #FD7401;
+    color: white;
+}
+
+.input:focus {
+    box-shadow: none;
+    border-color: #FD7401;
+}
+
+.textColor {
+    color: #555555;
+}
+
+.forgotPassword {
+    color: #1E2772;
+    font-size: 14px;
+    text-align: end;
+    display: block;
+}
+
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.image img {
+    height: 400px;
+}
