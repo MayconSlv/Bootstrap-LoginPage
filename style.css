@@ -1,6 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F1F3F6;
+    height: 100vh;
+    width: 100vw;
 }
 
 .grid-container {
@@ -73,4 +75,52 @@ body {
 
 .or-image {
     width: 100%;
+}
+
+@media screen and (max-width:960px) {
+    .grid-container {
+        grid-template-columns: 35% 75%;
+        max-height: 100vh;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .grid-container {
+        grid-template-columns: 40% 60%;
+        max-height: 100vh;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .grid-container {
+        grid-template-columns: 48% 50%;
+        max-height: 100vh;
+    }
+
+    .form-container {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .image {
+        display: none;
+    }
+
+    .grid-container {
+        display: block;
+        max-height: 100vh;
+    }
+
+    .form-container {
+        width: 70%;
+        margin: 0 auto;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .form-container {
+        width: 80%;
+    }
 }
