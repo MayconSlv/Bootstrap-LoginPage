@@ -33,6 +33,17 @@ body {
     color: white;
 }
 
+.singupBtn, .singupBtn:hover {
+    background-color: white;
+    border: 1px solid #FD7401;
+    color: #FD7401;
+    width: 100%;
+}
+
+.btnContainer {
+    height: 8em;
+}
+
 .input:focus {
     box-shadow: none;
     border-color: #FD7401;
@@ -58,4 +69,8 @@ body {
 
 .image img {
     height: 400px;
+}
+
+.or-image {
+    width: 100%;
 }
