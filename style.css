@@ -70,7 +70,7 @@ body {
 }
 
 .image img {
-    height: 400px;
+    height: 20em;
 }
 
 .or-image {
@@ -82,19 +82,21 @@ body {
         grid-template-columns: 35% 75%;
         max-height: 100vh;
     }
+    
+    .image {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 850px) {
     .grid-container {
         grid-template-columns: 40% 60%;
-        max-height: 100vh;
     }
 }
 
 @media screen and (max-width: 780px) {
     .grid-container {
         grid-template-columns: 48% 50%;
-        max-height: 100vh;
     }
 
     .form-container {
@@ -109,7 +111,6 @@ body {
 
     .grid-container {
         display: block;
-        max-height: 100vh;
     }
 
     .form-container {
